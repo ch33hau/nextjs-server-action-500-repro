@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-server-action-500-repro",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "repro": "sh repro.sh"
+  },
+  "dependencies": {
+    "next": "canary",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}
